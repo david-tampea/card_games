@@ -214,6 +214,7 @@ double chance_lower(card c, card d[52], int k)
 
 int main()
 {
+    srand(time(NULL));
     card pachet[52];
     create_new_deck(pachet);
     // printf("Pachet neamestecat: \n\n");
